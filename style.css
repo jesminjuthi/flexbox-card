@@ -1,0 +1,78 @@
+/* default css start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{
+  max-width: 50%;
+}
+p{
+  width: 95%;
+  margin: 20px auto;
+}
+/* default css end */
+/* team style */
+.teams{
+  background: #f5f6fa;
+  height: 100vh;
+  color: #fff;
+}
+.title{
+  text-align: center;
+  font-size: 4rem;
+  padding: 20px 0;
+  color: #000;
+  text-shadow: 0 0 10px #868686;
+}
+
+.team{
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  margin: auto;
+  flex-wrap: wrap;
+  transition: all .3s linear;
+}
+.team-box:first-child{
+  background: #ff9f43;
+}
+.team-box:last-child{
+  background: #ee5253;
+}
+.team-box{
+  background: #2e86de;
+  box-shadow: 1 1 20px;
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  flex: 1 1 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #8395a7;
+  margin: 20px;
+}
+.box-title{
+  font-size: 2rem;
+  margin-top: 25px;
+}
+.btn{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: all .4s linear;
+  border: 2px solid transparent;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn:hover{
+  border: 2px solid #fff;
+  background: transparent;
+  color: #070008;
+}
